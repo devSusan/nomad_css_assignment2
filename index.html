@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="statusbar"> 
+            <i class="fa-solid fa-arrow-left fa-sm"></i>
+            <i class="fa-solid fa-magnifying-glass fa-sm"></i>
+        </div>
+        <div class="artist-info">
+            <img class="artist-info__img" src="img/artist.jpeg">
+            <h1>Tyler, The Creator</h1>
+            <h4>Rap, Hip-Hop</h4>
+        </div>
+        <div class="button-area">
+            <span id="button-area__shuffle">Shuffle</span>
+            <span id="button-area__like">
+                <i class="fa-solid fa-heart"></i>
+                212,971
+            </span>
+        </div>
+        <div class="play-list">
+            <ol>
+                <li class="play-list__li">
+                    <div class="play-list__info">
+                        <img class="album-img__xs" src="img/album_1.jpeg">
+                        <div class="play-list__title">
+                            <h4>Tyler, The Creator</h4>
+                            <h3>EARFQUAKE</h3>
+                        </div>
+                    </div>
+                    <div class="play-list__ellipsis">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                </li>
+                <li class="play-list__li play-on">
+                    <div class="play-list__info">
+                        <img class="album-img__xs" src="img/album_3.jpeg">
+                        <div class="play-list__title">
+                            <h4>Tyler, The Creator</h4>
+                            <h3>NOVEMBER</h3>
+                        </div>
+                    </div>
+                    <div class="play-list__ellipsis">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                </li>
+                <li class="play-list__li">
+                    <div class="play-list__info">
+                        <img class="album-img__xs" src="img/album_2.jpeg">
+                        <div class="play-list__title">
+                            <h4>Tyler, The Creator</h4>
+                            <h3>911</h3>
+                        </div>
+                    </div>
+                    <div class="play-list__ellipsis">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                </li>
+                <li class="play-list__li">
+                    <div class="play-list__info">
+                        <img class="album-img__xs" src="img/album_4.jpeg">
+                        <div class="play-list__title">
+                            <h4>Tyler, The Creator</h4>
+                            <h3>WOLF</h3>
+                        </div>
+                    </div>
+                    <div class="play-list__ellipsis">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                </li>
+            </ol>
+        </div>
+        <div class="mini-player">
+            <div class="mini-player__position">
+                <div class="mini-player__info">
+                    <h4>Tyler, The Creator</h4>
+                    <h3>NOVEMBER</h3>
+                </div>
+                <div class="mini-player__icons">
+                    <i class="fa-solid fa-backward-step fa-xs"></i>
+                    <i class="fa-solid fa-pause fa-lg"></i>
+                    <i class="fa-solid fa-forward-step fa-xs"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="statusbar"> 
+            <i class="fa-solid fa-arrow-left fa-sm"></i>
+            <i class="fa-solid fa-ellipsis-vertical fa-sm"></i>
+        </div>
+        <div class="artist-info">
+            <img class="album-img__xl" src="img/album_3.jpeg">
+            <h1>November</h1>
+            <h4>Tyler, The Creator</h4>
+        </div>
+        <div class="main-player">
+            <div class="play-time">
+                <span>1:56</span>
+                <span>2:21</span>
+            </div>
+            <div class="play-bar">
+                <input type="range" class="main-player__bar" min="0" max="100">
+            </div>
+            <div class="play-button">
+                <i class="fa-solid fa-repeat fa-sm"></i>
+                <i class="fa-solid fa-backward-step fa-lg"></i>
+                <i class="fa-solid fa-circle-play fa-3x"></i>
+                <i class="fa-solid fa-forward-step fa-lg"></i>
+                <i class="fa-solid fa-shuffle fa-sm"></i>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/22a1e389fd.js" crossorigin="anonymous"></script>
+</body>
+</html>
